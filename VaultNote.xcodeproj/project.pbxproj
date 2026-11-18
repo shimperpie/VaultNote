@@ -1,0 +1,333 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0034367AE85F0B13D2826922 /* LockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2712ED181D141253EDB2BA /* LockView.swift */; };
+		0702D1C68B726DCCBBEE0412 /* CryptoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8143B4938B844D3BEF4D678E /* CryptoService.swift */; };
+		080B4B15642266D33AA589BF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E649D3C0C21C178F73088571 /* ContentView.swift */; };
+		334B335582115F1C5C4BBBBD /* GalleryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AEEBCCBA1F23616D91F696 /* GalleryManager.swift */; };
+		395AFFCCFC882B28482B95FD /* NoteListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA89E99F93180A525F078F48 /* NoteListView.swift */; };
+		3AE06EDC67080F32DD665BA2 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EA1114A22042397FB40B67 /* Note.swift */; };
+		5FD8DED3BE85E4A4CCF377EF /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84DC5BA8C5E1E27524A94AC /* AppState.swift */; };
+		67869DD8AAADDAA9B0042773 /* MediaDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CF569EA8FC853AC832C2F4 /* MediaDetailView.swift */; };
+		6DC4F3407AB0DB7E36DDFBA6 /* KeychainManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CB403F7B4C70BA2BD84D29 /* KeychainManager.swift */; };
+		86401EA5FF981DB0140647F4 /* SetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437F5A7B50DE0B00782B0F2B /* SetupView.swift */; };
+		8A26C06FF0930F82094242C8 /* DouyinParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4FDE2726CF21140E5E8B1D /* DouyinParser.swift */; };
+		97B836EF494AC66D6828E47B /* NoteEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6AB3D2474A8973EFABE91D /* NoteEditorView.swift */; };
+		9BD127385A71ABA2CE568874 /* MediaItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7624C3756522318BAD6593EF /* MediaItem.swift */; };
+		AED5E0FBDC2FB1BC5474007C /* NoteManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51EF449DC9F9E83FCAE9300A /* NoteManager.swift */; };
+		B4FE4FE1CC535F6D5CEACF66 /* VideoDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7F65552AB5ED59E2915892 /* VideoDownloader.swift */; };
+		B8BE620EEB310FCDD9E3313F /* VaultNoteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2FD143B8B5A984C91458DE /* VaultNoteApp.swift */; };
+		BC921021C56782B5D430ECA8 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DBB1F14188F3277221F4CB /* Constants.swift */; };
+		C75D4F593A268FB78F73F9FF /* RichTextEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6215359123AFEBE3D1EBFA /* RichTextEditor.swift */; };
+		DD08C74AD88BE79CD381E9A3 /* DownloadSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238911A275BD384C390A457C /* DownloadSheet.swift */; };
+		DE8DA3893F0369311BFD5EF4 /* GalleryGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86DB4467F1039D471AFE3AC /* GalleryGridView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D2712ED181D141253EDB2BA /* LockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockView.swift; sourceTree = "<group>"; };
+		238911A275BD384C390A457C /* DownloadSheet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DownloadSheet.swift; sourceTree = "<group>"; };
+		437F5A7B50DE0B00782B0F2B /* SetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupView.swift; sourceTree = "<group>"; };
+		51EF449DC9F9E83FCAE9300A /* NoteManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteManager.swift; sourceTree = "<group>"; };
+		5B7F65552AB5ED59E2915892 /* VideoDownloader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VideoDownloader.swift; sourceTree = "<group>"; };
+		7624C3756522318BAD6593EF /* MediaItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MediaItem.swift; path = MediaItem.swift; sourceTree = "<group>"; };
+		78DBB1F14188F3277221F4CB /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8143B4938B844D3BEF4D678E /* CryptoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoService.swift; sourceTree = "<group>"; };
+		81AEEBCCBA1F23616D91F696 /* GalleryManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GalleryManager.swift; path = GalleryManager.swift; sourceTree = "<group>"; };
+		87EA1114A22042397FB40B67 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		A8CF569EA8FC853AC832C2F4 /* MediaDetailView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MediaDetailView.swift; path = MediaDetailView.swift; sourceTree = "<group>"; };
+		A97C29AD63741CF438998CE6 /* VaultNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VaultNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA6215359123AFEBE3D1EBFA /* RichTextEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RichTextEditor.swift; sourceTree = "<group>"; };
+		AA89E99F93180A525F078F48 /* NoteListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteListView.swift; sourceTree = "<group>"; };
+		AE4FDE2726CF21140E5E8B1D /* DouyinParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DouyinParser.swift; sourceTree = "<group>"; };
+		B86DB4467F1039D471AFE3AC /* GalleryGridView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GalleryGridView.swift; path = GalleryGridView.swift; sourceTree = "<group>"; };
+		C9CB403F7B4C70BA2BD84D29 /* KeychainManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainManager.swift; sourceTree = "<group>"; };
+		CB2FD143B8B5A984C91458DE /* VaultNoteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultNoteApp.swift; sourceTree = "<group>"; };
+		E649D3C0C21C178F73088571 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E84DC5BA8C5E1E27524A94AC /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		ED6AB3D2474A8973EFABE91D /* NoteEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteEditorView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		2F0BDB13267E7D7B7FD79CA5 /* VaultNote */ = {
+			isa = PBXGroup;
+			children = (
+				CB2FD143B8B5A984C91458DE /* VaultNoteApp.swift */,
+				E84DC5BA8C5E1E27524A94AC /* AppState.swift */,
+				C9E04F99D8E7C9D4D391AEF8 /* Models */,
+				9C035E7454E6255EF4EA445C /* Services */,
+				9F58BDF7D4F04F6C4DC3CB6C /* Views */,
+				32120412CDF92CE44C01AF8D /* Utilities */,
+			);
+			path = VaultNote;
+			sourceTree = "<group>";
+		};
+		30772F61AC9BDC8631745269 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A97C29AD63741CF438998CE6 /* VaultNote.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32120412CDF92CE44C01AF8D /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				78DBB1F14188F3277221F4CB /* Constants.swift */,
+			);
+			name = Utilities;
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		71D2E56247FE75C3DCE9B609 = {
+			isa = PBXGroup;
+			children = (
+				2F0BDB13267E7D7B7FD79CA5 /* VaultNote */,
+				30772F61AC9BDC8631745269 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9C035E7454E6255EF4EA445C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8143B4938B844D3BEF4D678E /* CryptoService.swift */,
+				C9CB403F7B4C70BA2BD84D29 /* KeychainManager.swift */,
+				51EF449DC9F9E83FCAE9300A /* NoteManager.swift */,
+				81AEEBCCBA1F23616D91F696 /* GalleryManager.swift */,
+				AE4FDE2726CF21140E5E8B1D /* DouyinParser.swift */,
+				5B7F65552AB5ED59E2915892 /* VideoDownloader.swift */,
+			);
+			name = Services;
+			path = Services;
+			sourceTree = "<group>";
+		};
+		9F58BDF7D4F04F6C4DC3CB6C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E649D3C0C21C178F73088571 /* ContentView.swift */,
+				1D2712ED181D141253EDB2BA /* LockView.swift */,
+				437F5A7B50DE0B00782B0F2B /* SetupView.swift */,
+				AA89E99F93180A525F078F48 /* NoteListView.swift */,
+				ED6AB3D2474A8973EFABE91D /* NoteEditorView.swift */,
+				AA6215359123AFEBE3D1EBFA /* RichTextEditor.swift */,
+				B86DB4467F1039D471AFE3AC /* GalleryGridView.swift */,
+				A8CF569EA8FC853AC832C2F4 /* MediaDetailView.swift */,
+				238911A275BD384C390A457C /* DownloadSheet.swift */,
+			);
+			name = Views;
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C9E04F99D8E7C9D4D391AEF8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				87EA1114A22042397FB40B67 /* Note.swift */,
+				7624C3756522318BAD6593EF /* MediaItem.swift */,
+			);
+			name = Models;
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6772EC0E5D0CA05E04DDDB49 /* VaultNote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFD04581184175117C78D9AC /* Build configuration list for PBXNativeTarget "VaultNote" */;
+			buildPhases = (
+				E7209FB05162B7572F88D05E /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VaultNote;
+			productName = VaultNote;
+			productReference = A97C29AD63741CF438998CE6 /* VaultNote.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33EF45D2918B2C5BBEF21D74 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 022E0F2E8ECAC35F5510DD6F /* Build configuration list for PBXProject "VaultNote" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = "zh-Hans";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				"zh-Hans",
+			);
+			mainGroup = 71D2E56247FE75C3DCE9B609;
+			productRefGroup = 30772F61AC9BDC8631745269 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6772EC0E5D0CA05E04DDDB49 /* VaultNote */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E7209FB05162B7572F88D05E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8BE620EEB310FCDD9E3313F /* VaultNoteApp.swift in Sources */,
+				5FD8DED3BE85E4A4CCF377EF /* AppState.swift in Sources */,
+				3AE06EDC67080F32DD665BA2 /* Note.swift in Sources */,
+				0702D1C68B726DCCBBEE0412 /* CryptoService.swift in Sources */,
+				6DC4F3407AB0DB7E36DDFBA6 /* KeychainManager.swift in Sources */,
+				AED5E0FBDC2FB1BC5474007C /* NoteManager.swift in Sources */,
+				080B4B15642266D33AA589BF /* ContentView.swift in Sources */,
+				0034367AE85F0B13D2826922 /* LockView.swift in Sources */,
+				86401EA5FF981DB0140647F4 /* SetupView.swift in Sources */,
+				395AFFCCFC882B28482B95FD /* NoteListView.swift in Sources */,
+				97B836EF494AC66D6828E47B /* NoteEditorView.swift in Sources */,
+				C75D4F593A268FB78F73F9FF /* RichTextEditor.swift in Sources */,
+				BC921021C56782B5D430ECA8 /* Constants.swift in Sources */,
+				9BD127385A71ABA2CE568874 /* MediaItem.swift in Sources */,
+				334B335582115F1C5C4BBBBD /* GalleryManager.swift in Sources */,
+				DE8DA3893F0369311BFD5EF4 /* GalleryGridView.swift in Sources */,
+				67869DD8AAADDAA9B0042773 /* MediaDetailView.swift in Sources */,
+				8A26C06FF0930F82094242C8 /* DouyinParser.swift in Sources */,
+				B4FE4FE1CC535F6D5CEACF66 /* VideoDownloader.swift in Sources */,
+				DD08C74AD88BE79CD381E9A3 /* DownloadSheet.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		386F21FB6CCFBF3FBFDA1CC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSMinimumSystemVersion = 14.0;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "VaultNote - 私密笔记";
+				INFOPLIST_KEY_NSMainNibFile = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vaultnote.app;
+				PRODUCT_NAME = "Vault";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		555260E2B9879D6B41B034DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99EA497894306B9F39FE5709 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSMinimumSystemVersion = 14.0;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "VaultNote - 私密笔记";
+				INFOPLIST_KEY_NSMainNibFile = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vaultnote.app;
+				PRODUCT_NAME = "Vault";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AAEA14000790462964F89243 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		022E0F2E8ECAC35F5510DD6F /* Build configuration list for PBXProject "VaultNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAEA14000790462964F89243 /* Debug */,
+				555260E2B9879D6B41B034DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFD04581184175117C78D9AC /* Build configuration list for PBXNativeTarget "VaultNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				386F21FB6CCFBF3FBFDA1CC3 /* Debug */,
+				99EA497894306B9F39FE5709 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33EF45D2918B2C5BBEF21D74 /* Project object */;
+}

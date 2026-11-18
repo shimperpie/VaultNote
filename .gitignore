@@ -1,0 +1,17 @@
+# Xcode
+.DS_Store
+DerivedData/
+*.xcuserdata
+*.xcworkspace
+xcuserdata/
+build/
+
+# Swift
+*.swiftpm/
+
+# macOS
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+*.app
